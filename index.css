@@ -69,18 +69,21 @@
   }
   
   .features {
-    display: flex;
     justify-content: space-around;
-    padding: 40px 20px;
+    padding: 40px 150px;
     background-color: #fff;
   }
-  
+  .features1{
+    display: flex;
+    gap: 5rem;
+  }
   .feature-box {
     text-align: center;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    width: 23%;
+    width: 40%;
+    gap: 20%;
   }
   
   .icon {
@@ -89,8 +92,9 @@
   }
   
   .testimonial {
-    padding: 60px 20px;
-    background-color: #eaf6e5;
+    padding: 60px 320px;
+    background-color: #E5F4F2;
+    ;
     text-align: center;
   }
   
@@ -110,14 +114,10 @@
     text-align: center;
   }
   
-  .partners-logos img {
+  .partners-logos img, .partner-logo img{
     margin: 0 20px;
     max-width: 100px;
-  }
-  .partners-logo img, .partner-logo img{
-    margin: 0 20px;
-    max-width: 100px;
-    filter: grayscale(100) brightness(50);
+    filter: grayscale(100) brightness(0);
   }
   footer {
     background-color: #fff;
